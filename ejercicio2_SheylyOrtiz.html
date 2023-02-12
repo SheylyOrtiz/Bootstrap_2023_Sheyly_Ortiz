@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ejercicio 2</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <link rel="stylesheet" href="ejercicio2_CSS.css">
+    </head>
+    <body> 
+        <!-- SIDEBAR  -->
+        <nav>
+            <ul>
+                <li class="logo"><img src="https://i.imgur.com/E26Pj54.png"></li>
+                <li><a href="#"><i class="fa fa-home"></i>&nbsp;  Home</a></li>
+                <li><a href="#"><i class="fa fa-book"></i>&nbsp;  Book</a></li>
+                <li><a href="#"><i class="fa fa-users"></i>&nbsp;  Users</a></li>
+                <li><a href="#"><i class="fa fa-picture-o"></i>&nbsp;  Pictures</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i>&nbsp; Contact</a></li>
+            </ul>
+        </nav>
+
+
+
+         <!-- SIDEBAR  
+
+
+        <ul class="nav flex-sm-column navbar-light"  >
+            <li>
+                <img src="logo.png" width="50" height="50" alt="" style="margin-left: 10px;">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+          </ul>-->
+        
+        <div class="container-fluid"> 
+            <div class="wrapper">
+                <!-- BREADCRUMB  -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                </nav>
+                <!-- TABLAS  -->
+                <div class="row justify-content-center" style="margin-top: 20px; margin-right: 10px;">
+                    <div class="col-md-6">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6" >
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>      
+            <!-- BOTONES + MODALES  -->
+            <button type="button" class="btn btn-outline-primary btn-lg" style="margin-right: 20px;">Primary</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-right: 20px;">
+                Modal 1
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-success btn-lg" style="margin-right: 20px;">Success</button>
+            <button type="button" class="btn btn-outline-danger  btn-lg" style="margin-right: 20px;" data-toggle="modal" data-target="#exampleModalCenter">Danger</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-right: 20px;">
+                Modal 2
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-info btn-lg" style="margin-right: 20px;">Info</button>
+             <!-- PROGRESS BAR -->
+            <div style="margin-top: 20px;">EL PROGRESO DE SU ACCIÓN ES:</div>
+            <div class="progress" style="margin-top: 10px;" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+            </div>
+            <!-- POPOVER -->
+            <button  style="margin-top: 20px;" type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+             <!-- TOOLTIP -->
+            <button type="button" class="btn btn-secondary"
+                data-bs-toggle="tooltip" data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                data-bs-title="This top tooltip is themed via CSS variables." style="margin-left: 10px;">
+                    Custom tooltip
+            </button>
+        </div>
+            
+        </div>
+          
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+    </script>
+    </body>
+
+
+
+</html>
